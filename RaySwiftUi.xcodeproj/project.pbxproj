@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		668E860A239F567900060AD8 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 668E8609239F567900060AD8 /* Readme.md */; };
 		6693E6F2239E64EA009B0B9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693E6F1239E64EA009B0B9B /* AppDelegate.swift */; };
 		6693E6F4239E64EA009B0B9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693E6F3239E64EA009B0B9B /* SceneDelegate.swift */; };
 		6693E6F6239E64EA009B0B9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6693E6F5239E64EA009B0B9B /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		668E8609239F567900060AD8 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		6693E6EE239E64EA009B0B9B /* RaySwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaySwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6693E6F1239E64EA009B0B9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6693E6F3239E64EA009B0B9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				6693E6F1239E64EA009B0B9B /* AppDelegate.swift */,
 				6693E6F3239E64EA009B0B9B /* SceneDelegate.swift */,
 				6693E6F5239E64EA009B0B9B /* ContentView.swift */,
+				668E8609239F567900060AD8 /* Readme.md */,
 				6693E6F7239E64EB009B0B9B /* Assets.xcassets */,
 				6693E6FC239E64EB009B0B9B /* LaunchScreen.storyboard */,
 				6693E6FF239E64EB009B0B9B /* Info.plist */,
@@ -242,6 +245,7 @@
 			files = (
 				6693E6FE239E64EB009B0B9B /* LaunchScreen.storyboard in Resources */,
 				6693E6FB239E64EB009B0B9B /* Preview Assets.xcassets in Resources */,
+				668E860A239F567900060AD8 /* Readme.md in Resources */,
 				6693E6F8239E64EB009B0B9B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

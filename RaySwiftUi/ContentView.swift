@@ -9,8 +9,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showingAlert = false
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            
+            Text("Hello, Welcome to my swift ui app")
+            
+            Button(action: {
+                self.showingAlert = true
+            }) {
+                Text(/*@START_MENU_TOKEN@*/"Hit me"/*@END_MENU_TOKEN@*/)
+            }.alert(isPresented: $showingAlert) { () -> Alert in
+                
+                return Alert(title: Text("Hia"), message: Text("heleo"), dismissButton: .cancel())
+                
+            }
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Text(/*@START_MENU_TOKEN@*/"Knock Knock"/*@END_MENU_TOKEN@*/)
+            }
+        }
     }
 }
 
@@ -19,3 +37,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView().previewLayout(.fixed(width: 568, height: 320))
     }
 }
+
