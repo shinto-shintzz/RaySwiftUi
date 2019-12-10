@@ -81,6 +81,7 @@
 		6693E6E5239E64EA009B0B9B = {
 			isa = PBXGroup;
 			children = (
+				668E8609239F567900060AD8 /* Readme.md */,
 				6693E6F0239E64EA009B0B9B /* RaySwiftUi */,
 				6693E707239E64EB009B0B9B /* RaySwiftUiTests */,
 				6693E712239E64EB009B0B9B /* RaySwiftUiUITests */,
@@ -104,7 +105,6 @@
 				6693E6F1239E64EA009B0B9B /* AppDelegate.swift */,
 				6693E6F3239E64EA009B0B9B /* SceneDelegate.swift */,
 				6693E6F5239E64EA009B0B9B /* ContentView.swift */,
-				668E8609239F567900060AD8 /* Readme.md */,
 				6693E6F7239E64EB009B0B9B /* Assets.xcassets */,
 				6693E6FC239E64EB009B0B9B /* LaunchScreen.storyboard */,
 				6693E6FF239E64EB009B0B9B /* Info.plist */,
